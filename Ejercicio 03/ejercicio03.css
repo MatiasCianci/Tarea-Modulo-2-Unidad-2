@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor{
+    height: 100px;
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caja1{
+    background-color: red;
+    
+    width: 100px;
+    
+}
+
+.caja2{
+    background-color: blue;
+    width: 100px;
+}
+
+.caja3{
+    background-color: green;
+    width: 100px;
+}
+
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    align-items: center;
+}
